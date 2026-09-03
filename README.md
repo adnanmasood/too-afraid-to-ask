@@ -1,4 +1,4 @@
-# Too Afraid to Ask
+# Too Afraid to Ask <Tech>
 
 **Too Afraid to Ask** is a collection of small, runnable projects for technologies that can feel harder to approach than they really are. Each topic begins with the mental model, builds one complete example, and shows the real requests and responses moving through it.
 
