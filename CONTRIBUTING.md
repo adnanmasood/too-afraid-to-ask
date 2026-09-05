@@ -19,7 +19,7 @@ Use a short, descriptive, kebab-case slug:
 
 ```text
 topics/mcp/
-topics/a2a-agents/
+topics/a2a/
 topics/vector-databases/
 ```
 

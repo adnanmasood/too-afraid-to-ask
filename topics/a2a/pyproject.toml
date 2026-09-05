@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "travel-a2a-learning"
+version = "0.1.0"
+description = "A small, end-to-end A2A trip coordinator and packing advisor learning project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "a2a-sdk[http-server]==1.1.2",
+  "httpx==0.28.1",
+  "pydantic==2.13.5",
+  "uvicorn==0.52.4",
+]
+
+[project.optional-dependencies]
+ai = [
+  "openai==3.8.0",
+]
+dev = [
+  "pytest==9.1.1",
+  "pytest-asyncio==1.4.0",
+  "ruff==0.16.6",
+]
+
+[project.scripts]
+travel-a2a = "travel_a2a.cli:main"
+travel-a2a-server = "travel_a2a.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/travel_a2a"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+markers = [
+  "live: opt-in tests that call the live Open-Meteo service",
+]
+filterwarnings = [
+  "ignore:label\\(\\) is deprecated.*:DeprecationWarning:a2a\\.utils\\.proto_utils",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP"]
