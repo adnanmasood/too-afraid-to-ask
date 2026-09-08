@@ -1,0 +1,18 @@
+Codex · explicit skill activation
+Authentic sanitized trace · codex-cli 0.153.4 · read-only
+
+$repo-release-notes Draft end-user release notes for ad43c78..b247a11.
+Return Markdown in chat. Do not write, tag, commit, push, or publish.
+
+Codex: I’ll use the repo-release-notes skill to review the Git range and
+       draft evidence-backed release notes in chat.
+✓ loaded .agents/skills/repo-release-notes/SKILL.md
+✓ collect_changes.py exited 0 · 5 commits
+✓ render_release_notes.py exited 0
+
+# Release notes — ad43c78..b247a11
+This update adds a weather-aware A2A travel-agent learning project.
+## Added
+- A complete tutorial with runnable agents and an illustrated walkthrough. (`b247a11`)
+- Weather-aware packing plans, streaming, and follow-up prompts. (`b247a11`)
+[final response abridged for the capture]

@@ -1,0 +1,26 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local release-note working files
+/changes.json
+/release-plan.json
+/invalid-release-plan.json
+/release-notes.md
+
+# Local host discovery/install directories used by the walkthrough
+.agents/
+.claude/
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~

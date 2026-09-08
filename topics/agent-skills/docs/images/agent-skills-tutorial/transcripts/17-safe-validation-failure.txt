@@ -1,0 +1,14 @@
+Failing closed on invented evidence
+Recorded locally · renderer created no output
+
+$ python3 repo-release-notes/skills/repo-release-notes/scripts/render_release_notes.py \
+    --changes changes.json \
+    --plan invalid-release-plan.json --output /tmp/SHOULD_NOT_EXIST.md
+
+error: plan.sections.Fixed[0].commits[0] does not match a collected
+commit: deadbee
+exit status: 1
+$ test ! -e /tmp/SHOULD_NOT_EXIST.md && echo 'no output created'
+no output created
+
+No partial release-notes file was produced.

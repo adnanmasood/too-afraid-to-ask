@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Deterministic offline verification</title>
+  <desc id="description">Recorded locally · Python 3.13 · pinned development tools. The adjacent article text contains a complete accessible transcript.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020812" flood-opacity="0.35"/>
+    </filter>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071321"/>
+      <stop offset="1" stop-color="#0c2036"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <g filter="url(#shadow)">
+    <rect x="48" y="42" width="1504" height="816" rx="25" fill="#0b1829" stroke="#29435f" stroke-width="2"/>
+    <path d="M48 126 H1552" stroke="#29435f" stroke-width="2"/>
+  </g>
+  <circle cx="82" cy="84" r="10" fill="#ff625d"/>
+  <circle cx="116" cy="84" r="10" fill="#ffbd45"/>
+  <circle cx="150" cy="84" r="10" fill="#27c93f"/>
+  <text x="800" y="82" text-anchor="middle" fill="#d7e3f4" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">Deterministic offline verification</text>
+  <text x="800" y="109" text-anchor="middle" fill="#879ab4" font-family="Inter, Arial, sans-serif" font-size="16">Recorded locally · Python 3.13 · pinned development tools</text>
+  <g>
+    <text x="98" y="184" fill="#55d6a6" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">$ .venv/bin/pytest -q</text>
+    <text x="98" y="218" fill="#70d6ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">...................................................                      [100%]</text>
+    <text x="98" y="252" fill="#70d6ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">51 passed</text>
+    <text x="98" y="286" fill="#d7e3f4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21"></text>
+    <text x="98" y="320" fill="#55d6a6" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">$ .venv/bin/ruff check .</text>
+    <text x="98" y="354" fill="#70d6ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">All checks passed!</text>
+    <text x="98" y="388" fill="#d7e3f4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21"></text>
+    <text x="98" y="422" fill="#55d6a6" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">$ .venv/bin/ruff format --check .</text>
+    <text x="98" y="456" fill="#70d6ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">15 files already formatted</text>
+    <text x="98" y="490" fill="#d7e3f4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21"></text>
+    <text x="98" y="524" fill="#70d6ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="21">✓ skill validator   ✓ Codex manifest   ✓ Claude manifest</text>
+  </g>
+  <rect x="1220" y="806" width="286" height="31" rx="15" fill="#102a43" stroke="#29435f"/>
+  <text x="1363" y="827" text-anchor="middle" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">SANITIZED RECORDED OUTPUT</text>
+</svg>

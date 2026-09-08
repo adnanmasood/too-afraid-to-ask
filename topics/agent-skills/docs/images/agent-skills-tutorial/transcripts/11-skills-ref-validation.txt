@@ -1,0 +1,10 @@
+Portable skill validation
+Recorded locally · skills-ref 0.1.1
+
+$ python -m pip show skills-ref | rg '^(Name|Version):'
+Name: skills-ref
+Version: 0.1.1
+
+$ .venv/bin/agentskills validate \
+    repo-release-notes/skills/repo-release-notes
+Valid skill: repo-release-notes/skills/repo-release-notes

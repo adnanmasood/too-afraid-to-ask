@@ -1,0 +1,17 @@
+Codex · implicit skill activation
+Authentic sanitized trace · description matched · read-only
+
+Draft end-user release notes for the user-visible changes between ad43c78
+and b247a11. Return them here; do not publish or write a file.
+
+Codex: I’ll use the repo-release-notes skill to review the Git range and
+       draft end-user notes here.
+✓ discovered the skill from its frontmatter description
+✓ loaded SKILL.md and policy · validation exited 0
+
+Release notes for `ad43c78 → b247a11`
+**Added**  A2A tutorial, packing plans, streaming, and setup guidance. (`b247a11`)
+**Fixed**  Corrected the README title’s angle-bracket display. (`fda6360`,
+             `ca3406f`)
+
+Negative check: a general Git-tag question loaded no skill.

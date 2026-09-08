@@ -10,6 +10,7 @@ The guides assume curiosity, not prior expertise. They keep the first implementa
 |---|---|---|
 | Model Context Protocol (MCP) | Available | [Project overview](topics/mcp/README.md) · [Illustrated tutorial](topics/mcp/docs/build-your-first-weather-mcp-server.md) |
 | Agent2Agent (A2A) Protocol | Available | [Project overview](topics/a2a/README.md) · [Illustrated tutorial](topics/a2a/docs/build-your-first-weather-aware-a2a-agent.md) · [Medium-ready draft](topics/a2a/docs/medium-draft.md) |
+| Agent Skills (`SKILL.md`) | Available | [Project overview](topics/agent-skills/README.md) · [Illustrated tutorial](topics/agent-skills/docs/build-your-first-agent-skill.md) · [Medium-ready draft](topics/agent-skills/docs/medium-draft.md) |
 
 ## Try a project
 
@@ -43,6 +44,20 @@ python -m pip install -e ".[dev]"
 
 Start with the [A2A quick start](topics/a2a/README.md) or the [complete A2A tutorial](topics/a2a/docs/build-your-first-weather-aware-a2a-agent.md).
 
+The Agent Skills episode is an offline, standard-library example. Its only installed dependencies
+are development and validation tools:
+
+```bash
+cd topics/agent-skills
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-dev.txt
+pytest
+```
+
+Start with the [Agent Skills project overview](topics/agent-skills/README.md) or the
+[complete `SKILL.md` tutorial](topics/agent-skills/docs/build-your-first-agent-skill.md).
+
 ## How the repository is organized
 
 ```text
@@ -52,6 +67,7 @@ Start with the [A2A quick start](topics/a2a/README.md) or the [complete A2A tuto
 ├── templates/topic/         # Technology-neutral writing scaffold
 └── topics/
     ├── a2a/                 # Complete, independently runnable A2A project
+    ├── agent-skills/        # Portable SKILL.md package for Codex and Claude
     └── mcp/                 # Complete, independently runnable MCP project
 ```
 

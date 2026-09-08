@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "release_name": "v1.4.0",
+  "release_date": "2026-09-07",
+  "audience": "developers",
+  "summary": "This release makes setup easier, configuration more predictable, and diagnostics safer while correcting checkout discovery.",
+  "compare_url": "https://github.com/example/acme/compare/v1.3.0...v1.4.0",
+  "sections": {
+    "Added": [
+      {
+        "text": "Added a guided project bootstrap that checks prerequisites before the first run.",
+        "commits": [
+          "1111111"
+        ]
+      }
+    ],
+    "Changed": [
+      {
+        "text": "Changed configuration discovery to prefer project-local settings before user defaults.",
+        "commits": [
+          "2222222"
+        ]
+      }
+    ],
+    "Fixed": [
+      {
+        "text": "Fixed repository detection when the checkout path contains spaces.",
+        "commits": [
+          "3333333"
+        ]
+      }
+    ],
+    "Security": [
+      {
+        "text": "Hardened rendered diagnostics so secrets and absolute local paths are not exposed.",
+        "commits": [
+          "4444444"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+Deterministic offline verification
+Recorded locally · Python 3.13 · pinned development tools
+
+$ .venv/bin/pytest -q
+...................................................                      [100%]
+51 passed
+
+$ .venv/bin/ruff check .
+All checks passed!
+
+$ .venv/bin/ruff format --check .
+15 files already formatted
+
+✓ skill validator   ✓ Codex manifest   ✓ Claude manifest

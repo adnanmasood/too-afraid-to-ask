@@ -1,0 +1,6 @@
+interface:
+  display_name: "Repository Release Notes"
+  short_description: "Draft grounded release notes from Git history"
+  default_prompt: "Use $repo-release-notes to draft evidence-backed notes for my next release."
+policy:
+  allow_implicit_invocation: true

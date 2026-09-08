@@ -1,0 +1,22 @@
+Validated Markdown rendering
+Recorded locally · fixed ad43c78..b247a11 walkthrough
+
+$ python3 repo-release-notes/skills/repo-release-notes/scripts/render_release_notes.py \
+    --changes changes.json --plan release-plan.json
+
+# Release notes — ad43c78 → b247a11
+**Audience:** End users
+
+## Summary
+The A2A topic is now available, with a runnable travel-agent example and an
+illustrated walkthrough.
+
+## Added
+- Complete A2A tutorial, runnable agents, quick start, and illustrations. (`b247a11`)
+- Weather-aware packing plans with multiple styles and unit systems. (`b247a11`)
+- Streamed progress and follow-up prompts for missing details. (`b247a11`)
+- Deterministic planner plus an optional OpenAI planner. (`b247a11`)
+
+## Fixed
+- Corrected the README title’s angle-bracket display. (`fda6360`, `ca3406f`)
+Generated/cache artifacts were omitted.

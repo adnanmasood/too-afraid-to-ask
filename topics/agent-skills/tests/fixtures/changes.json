@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "range": {
+    "base": "v1.3.0",
+    "head": "v1.4.0",
+    "base_oid": "0000000000000000000000000000000000000000",
+    "head_oid": "4444444444444444444444444444444444444444",
+    "commit_count": 4
+  },
+  "commits": [
+    {
+      "sha": "1111111111111111111111111111111111111111",
+      "short_sha": "111111111111",
+      "subject": "Add guided project bootstrap",
+      "files": [
+        {
+          "status": "added",
+          "path": "src/bootstrap.py",
+          "additions": 42,
+          "deletions": 0,
+          "binary": false
+        }
+      ]
+    },
+    {
+      "sha": "2222222222222222222222222222222222222222",
+      "short_sha": "222222222222",
+      "subject": "Prefer project-local configuration",
+      "files": [
+        {
+          "status": "modified",
+          "path": "src/config.py",
+          "additions": 18,
+          "deletions": 7,
+          "binary": false
+        }
+      ]
+    },
+    {
+      "sha": "3333333333333333333333333333333333333333",
+      "short_sha": "333333333333",
+      "subject": "Handle spaces in checkout paths",
+      "files": [
+        {
+          "status": "modified",
+          "path": "src/repository.py",
+          "additions": 9,
+          "deletions": 4,
+          "binary": false
+        }
+      ]
+    },
+    {
+      "sha": "4444444444444444444444444444444444444444",
+      "short_sha": "444444444444",
+      "subject": "Sanitize public diagnostics",
+      "files": [
+        {
+          "status": "modified",
+          "path": "src/errors.py",
+          "additions": 21,
+          "deletions": 6,
+          "binary": false
+        }
+      ]
+    }
+  ]
+}

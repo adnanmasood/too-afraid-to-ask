@@ -1,0 +1,15 @@
+Collecting bounded Git evidence
+Recorded locally · read-only collector
+
+$ python3 repo-release-notes/skills/repo-release-notes/scripts/collect_changes.py \
+    --repo ../.. --base ad43c78 --head b247a11 --output changes.json
+
+$ jq -r '<range and compact commit summary>' changes.json
+range ad43c78..b247a11 • 5 commits
+fda6360a7d8b • Modify project title in README • 1 file(s)
+ca3406fee88a • Fix HTML entities in project title in README • 1 file(s)
+12b736b18d56 • Add topics/a2a .DS_Store and __pycache__ files • 24 file(s)
+5a6ef2307af1 • Add .gitignore and remove generated files • 2 file(s)
+b247a11f7c5c • Add A2A travel agent tutorial project • 35 file(s)
+
+The noisy cache commit is evidence—but not a customer-facing release item.

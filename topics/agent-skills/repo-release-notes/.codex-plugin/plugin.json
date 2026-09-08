@@ -1,0 +1,31 @@
+{
+  "name": "repo-release-notes",
+  "version": "0.1.0",
+  "description": "Create evidence-backed release notes from a local Git range.",
+  "author": {
+    "name": "Adnan Masood",
+    "url": "https://github.com/adnanmasood"
+  },
+  "homepage": "https://github.com/adnanmasood/too-afraid-to-ask/tree/main/topics/agent-skills",
+  "repository": "https://github.com/adnanmasood/too-afraid-to-ask",
+  "license": "Apache-2.0",
+  "keywords": [
+    "agent-skills",
+    "release-notes",
+    "git",
+    "documentation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Repository Release Notes",
+    "shortDescription": "Evidence-backed notes from Git history.",
+    "longDescription": "Collect a local Git range, draft a grounded editorial plan, and render consistent release notes with traceable commit evidence.",
+    "developerName": "Adnan Masood",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Use $repo-release-notes to draft release notes for the changes since the last tag."
+  }
+}

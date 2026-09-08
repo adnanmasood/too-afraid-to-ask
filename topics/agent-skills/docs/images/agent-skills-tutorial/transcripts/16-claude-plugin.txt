@@ -1,0 +1,15 @@
+Claude Code · plugin discovery boundary
+Authentic sanitized stream-json · Claude Code 2.1.68
+
+$ claude -p --plugin-dir ./repo-release-notes \
+    '/repo-release-notes:repo-release-notes Draft notes for ad43c78..b247a11'
+
+{"type":"system","subtype":"init","claude_code_version":"2.1.68",
+ "skills":["repo-release-notes:repo-release-notes"],
+ "plugins":[{"name":"repo-release-notes"}]}
+
+{"error":"authentication_failed",
+ "text":"Not logged in · Please run /login"}
+
+Plugin discovery and namespacing passed. Model execution did not run.
+Authenticate Claude Code, then repeat the same ephemeral command.
